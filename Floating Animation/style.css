@@ -1,0 +1,253 @@
+body
+{
+   background-color:red;
+   font-size: 30px; 
+   color:gold;
+}
+.div1
+{
+  border:2px solid black;
+  height: 50px;
+  border-radius: 4px;
+}
+.f 
+{  
+    animation-name: f;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+    margin-left: 30px;
+    margin-top: 10px;
+   animation-delay: 1s;
+}
+
+@keyframes f 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.i
+{
+  animation-name: i;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 45px;
+    margin-top: 10px;
+  animation-delay: 1.1s;
+}
+@keyframes i 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.l
+{
+  animation-name: l;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  position: fixed;
+  margin-left: 55px;
+  margin-top: 10px;
+  animation-delay: 1.2s;
+}
+@keyframes l 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.m
+{
+  animation-name: m;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 71px;
+    margin-top: 10px;
+  animation-delay: 1.3s;
+}
+@keyframes m 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.I
+{
+  animation-name: I;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 110px;
+    margin-top: 10px;
+  animation-delay: 1.4s;
+}
+@keyframes I 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.N
+{
+  animation-name: N;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 120px;
+    margin-top: 10px;
+  animation-delay: 1.5s;
+}
+@keyframes N 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.D
+{
+  animation-name: D;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 139px;
+    margin-top: 10px;
+  animation-delay: 1.6s;
+}
+@keyframes D 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.U
+{
+  animation-name: U;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 158px;
+    margin-top: 10px;
+  animation-delay: 1.7s;
+}
+@keyframes U
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.S
+{
+  animation-name: S;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 178px;
+    margin-top: 10px;
+  animation-delay: 1.8s;
+}
+@keyframes S 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.T
+{
+  animation-name: T;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 195px;
+    margin-top: 10px;
+  animation-delay: 1.9s;
+}
+@keyframes T 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.R
+{
+  animation-name: R;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 214px;
+    margin-top: 10px;
+  animation-delay: 2s;
+}
+@keyframes R 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }    
+}
+.I1
+{
+  animation-name: I1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 234px;
+    margin-top: 10px;
+  animation-delay: 2.1s;
+}
+@keyframes I1 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }
+}
+.E
+{
+  animation-name: E;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 247px;
+    margin-top: 10px;
+  animation-delay: 2.2s;
+}
+@keyframes E 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }
+}
+.S1
+{
+  animation-name: S1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    position: fixed;
+   margin-left: 265px;
+    margin-top: 10px;
+  animation-delay: 2.3s;
+}
+@keyframes S1 
+{
+    from { transform: translate(1000px, 0); }
+    65%  { transform: translate(15px, 0); }
+    to   { transform: translate(-0px, 0); }
+}
+
+ 
