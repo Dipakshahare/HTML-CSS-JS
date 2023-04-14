@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator HTML, CSS and JS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/99e4a8e3d4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head> 
+<body>
+    <div class="container">
+        <div>
+            <p>Creating Calculator using HTML, CSS and JavaScript</p>
+        </div>
+        <form onsubmit="display.value = eval(display.value)">
+            <div class="input-display">
+                <input type="text" name="display" minlength="0" maxlength="10">
+            </div>
+            <div class="number">
+                <input type="button" value="AC" onclick="display.value = '' " class="color">
+                <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1) " class="color">
+                <input type="button" value="%" onclick="display.value += '%' " class="color">
+                <input type="button" value="/" onclick="display.value += '/' " class="color">
+            </div>
+            <div class="number">
+                <input type="button" value="7" onclick="display.value += '7' ">
+                <input type="button" value="8" onclick="display.value += '8' ">
+                <input type="button" value="9" onclick="display.value += '9' ">
+                <input type="button" value="*" onclick="display.value += '*' " class="color">
+            </div>
+            <div class="number">
+                <input type="button" value="4" onclick="display.value += '4' ">
+                <input type="button" value="5" onclick="display.value += '5' ">
+                <input type="button" value="6" onclick="display.value += '6' ">
+                <input type="button" value="-" onclick="display.value += '-' " class="color">
+            </div>
+            <div class="number">
+                <input type="button" value="1" onclick="display.value += '1' ">
+                <input type="button" value="2" onclick="display.value += '2' ">
+                <input type="button" value="3" onclick="display.value += '3' ">
+                <input type="button" value="+" onclick="display.value += '+' " class="color">
+            </div>
+            <div class="number">
+                <input type="button" value="0" onclick="display.value += '0' ">
+                <input type="button" value="00" onclick="display.value += '00' ">
+                <input type="button" value="." onclick="display.value += '.' " class="color">
+                <input type="submit" value="=" onclick="display.value = eval(display.value) " class="color">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
